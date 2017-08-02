@@ -214,6 +214,7 @@ while True:
  
     else:
         print("ERROR : WRONG INPUT\nPlease choose correctly !")
+        break;
 
     print("converted no :", converted_no)
     
