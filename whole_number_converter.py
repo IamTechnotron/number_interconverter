@@ -210,11 +210,11 @@ while True:
 # EXIT
     elif choice == 13:
         print("\nExiting...")
-        break;
+        break
  
     else:
         print("ERROR : WRONG INPUT\nPlease choose correctly !")
-        break;
+        break
 
     print("converted no :", converted_no)
     
