@@ -91,6 +91,7 @@ while True:
 
     elif choice == 6:
         number_in = input("\nEnter the Hexadecimal number: ")
+        print("Sorry, Out OF Order")
 
 # Octal  ->  Binary
     elif choice == 7:
@@ -136,7 +137,7 @@ while True:
 
 # Octal  ->  Hexadecimal
     elif choice == 9:
-        number_in = input("\nEnter the Octal number: ")
+        number_in = int(input("\nEnter the Octal number: "))
         while number_in:
             remainder = number_in % 10
             number_in = int(number_in / 10)
@@ -168,10 +169,11 @@ while True:
 
     elif choice == 10:
         number_in = input("\nEnter the Hexadecimal number: ")
+        print("Sorry, Out OF Order")
 
 # Binary  ->  Hexadecimal
     elif choice == 11:
-        number_in = input("\nEnter the Binary number: ")
+        number_in = int(input("\nEnter the Binary number: "))
         while number_in:
             remainder = number_in % 10
             number_in = int(number_in / 10)
@@ -204,6 +206,7 @@ while True:
 # Hexadecimal  ->  Binary
     elif choice == 12:
         number_in = input("\nEnter the Hexadecimal number: ")
+        print("Sorry, Out OF Order")
 # EXIT
     elif choice == 13:
         print("\nExiting...")
@@ -215,3 +218,5 @@ while True:
     print("converted no :", converted_no)
     
     print("\n---------------------------------------------------------------------------\n")
+
+
